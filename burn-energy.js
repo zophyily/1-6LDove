@@ -1,6 +1,6 @@
 module.exports = async function runBurnEnergy(page) {
   // 🟧 FASHION ARENA
-  /* let arenaEnergy = 1;
+  let arenaEnergy = 1;
 
   while (arenaEnergy > 0) {
     try {
@@ -64,7 +64,7 @@ module.exports = async function runBurnEnergy(page) {
       await page.reload({ timeout: 60000 });
       await page.waitForTimeout(5000);
     }
-  } */
+  } 
 
   // 💅 BEAUTY PAGEANT
   async function getJudgeCycles() {
