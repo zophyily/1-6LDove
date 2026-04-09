@@ -1,6 +1,6 @@
 module.exports = async function runBurnEnergy(page) {
   // 🟧 FASHION ARENA
-/* let arenaEnergy = 1;
+ let arenaEnergy = 1;
 
   while (arenaEnergy > 0) {
     try {
@@ -65,7 +65,7 @@ module.exports = async function runBurnEnergy(page) {
       await page.waitForTimeout(5000);
     }
   } 
-*/
+
   // 💅 BEAUTY PAGEANT
   async function getJudgeCycles() {
     const energySelector = '#header > div.wrapper > div > div.player-panel-middle > div.player-panel-energy > a.player-energy.player-bp-energy > span.player-energy-value';
